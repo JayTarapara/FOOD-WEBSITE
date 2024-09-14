@@ -1,0 +1,164 @@
+nav{
+    background-color: #f8f7f4;
+}
+.dropdown-item{
+    font-weight: 700;
+}
+.dropdown-item:hover{
+    color: #2eb011;
+    background-color: #c2e6bf6a;
+}
+.dropdown-menu{
+    background-color: #ffffff;
+}
+.dropdown-menu li{
+    padding: 0.5rem;
+
+}
+.nav-link{
+    font-weight: 600;
+    
+    
+}
+.starting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    height: 40rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    font-size:50px;
+
+    background-image: url("background.jpeg");
+    background-size: cover;
+   background-color: #cea21e;
+   background-attachment: fixed;
+}
+#explore{
+    font-size: 25px;
+    font-weight: 500;
+    border:10px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#F28123;
+}
+#explore:hover{
+    background-color: rgb(41, 38, 38);
+    color: #F28123;
+    
+    }
+
+    .trending{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 3rem;
+        flex-direction: column;
+       
+        
+    }
+
+    .trending>p{
+        font-size: 2rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 800;
+       color: #F28123;
+      
+       
+    }
+
+    .card-title {
+        font-weight: bold;
+      }
+      
+      .price {
+        color: #333;
+        font-size: 1.2rem;
+      }
+      
+      .card {
+        transition: transform 0.2s;
+      }
+      
+      .card:hover {
+        transform: scale(1.05);
+      }
+      
+      .btn-warning {
+        background-color: #f57c00;
+        border: none;
+      }
+      
+      .btn-warning:hover {
+        background-color: #f57c00;
+        opacity: 0.8;
+      }
+      .card-text fs-4{
+        font-size: 1.2rem;
+      }
+      .favourite{
+        font-size: 0.9rem;
+        color: #F28123;
+    border: none;
+    background-color: #333;
+        border-radius: 7px;
+        padding: 8px;
+        font-weight: 400;
+        margin: 3px;
+     
+      }
+      .favourite:hover{
+        color:#333;
+        background-color: #F28123;
+        font-weight: 400;
+      }
+    
+      @media (min-width: 600px) and (max-width: 994px) {
+        .col-md-3 {
+          flex: 0 0 50%;  /* Set the column width to 50% to display 2 cards per row */
+          max-width: 50%; /* Ensure the cards take up no more than 50% of the width */
+        }
+      }
+      
+      /* Optional styling for centering and padding if needed */
+      .container {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      
+      .card {
+        margin: 10px 0;  /* Add vertical margin to give some spacing between the cards */
+      }
+.brandname{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+.brandname :hover{
+color: rgb(227, 87, 12);
+}
+
+.nav-link:hover{
+    color: rgb(227, 87, 12);
+    }
+   
+
+.nav-link{
+    margin-right: 30px;
+}
+ .tempelete{
+    margin-top:8px;
+    margin-right: 8px;
+} 
+
+
+form{
+    margin-right : 50px;
+}
+
+.fa-user{
+    margin-right: 10px;
+}
